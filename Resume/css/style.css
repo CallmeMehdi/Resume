@@ -3,6 +3,19 @@
     margin:0;
     padding:0;
 }
+.container-fluid{
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:15px;
+    padding-right:15px
+}
+.container-fluid>.header{
+	margin-right:-15px;
+	margin-left:-15px
+}
+.marg-s{
+    margin-left:30px;
+}
 body{
     /* background-color:#CDACC8; */
     background-color:#F8F0F8;
@@ -16,7 +29,7 @@ body.edu{
 header{
     z-index:6;
     height:100%;
-    width:1519px;
+    width:100%;
     position:fixed;
     top:0;
     left:0;
